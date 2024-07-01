@@ -8,7 +8,7 @@ const CreateSidebar = (sidebar) => {
     return `
     <section class="sidebar-container">
         <div class="main-logo-sidebar">
-            <img src="./src/images/logo-image.png" alt="logo">
+            <img src="../src/images/logo-image.png" alt="logo">
             <a class="logo-sidebar-text" href="/index.html">TODO | DIARY</a>
         </div>
         <ul class="list-sidebar">
