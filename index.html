@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diary Application</title>
+    <!-- <link rel="stylesheet" href="./css/sidebar.css"> -->
+    <link rel="stylesheet" href="/src/styles/styles.css">
+    <link rel="stylesheet" href="/src/styles/dashboard.css">
+    <!-- <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/calendar.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- This header title component -->
+    <header-title-component data-source="card-data"></header-title-component>
+    <!-- This is sidebar component responsive-->
+    <sidebar-respon-component data-source="card-data"></sidebar-respon-component>
+    
+    <main class="main-dash-container">
+        <!-- This is sidebar component -->
+        <sidebar-component data-source="card-data"></sidebar-component>
+
+        <section class="right-section">
+
+
+            <!-- This is greeting profile section -->
+            <section class="greeting-container">
+                <div class="greeting-profile">
+                    <a class="image-profile" href="#"><img src="https://qph.cf2.quoracdn.net/main-qimg-300ba7d9f401c5687b383d35c4296f4c-lq" alt="profile"></a>
+                    <div class="greeting-text">
+                        <h2>Hello, Samon Rotha</h2>
+                        <p>Here's your dashboard for today.</p>
+                    </div>
+                </div>
+                <div class="image-detail">
+                    <img src="/src/images/Allura Feedback Session.png" alt="image">
+                </div>
+            </section>
+
+            <main class="content-dashboard-section">
+                <section class="content-dashboard-section-left">
+                    <section class="date-status-container">
+                        <!-- This is a time date -->
+                        <div class="time-container">
+                            <h2 id="current-time"></h2>
+                            <p id="current-day-month"></p>
+                        </div>          
+                    </section>
+
+                    <section class="profile-info-section">
+                        <div class="text-profile-info">
+                            <h3>Name :</h3>
+                            <p>Samon Rotha</p>
+                        </div>
+
+                        <div class="text-profile-info">
+                            <h3>Birthday :</h3>
+                            <p>Dec 22, 2004</p>
+                        </div>
+
+                        <div class="text-profile-info">
+                            <h3>Country :</h3>
+                            <p>Cambodia</p>
+                        </div>
+
+                        <div class="text-profile-info">
+                            <h3>Contact :</h3>
+                            <p>+855 71 XX XX XXX</p>
+                        </div>
+
+                        <div class="text-profile-info">
+                            <h3>Position :</h3>
+                            <p>Freshman</p>
+                        </div>
+
+                        <div class="text-profile-info">
+                            <h3>Address :</h3>
+                            <p>Street 103, Toul Sangkae, Russey Keo, Phnom Penh</p>
+                        </div>
+                    </section>
+
+
+                    <div class="activity-graph-container">
+                        <h2>Your Activities:</h2>
+                        <div class="activity">
+                            <span>Self Study - 30%</span>
+                            <div class="progress-bar">
+                                <div class="progress orange"></div>
+                            </div>
+                        </div>
+                        <div class="activity">
+                            <span>Group Study - 10%</span>
+                            <div class="progress-bar">
+                                <div class="progress red"></div>
+                            </div>
+                        </div>
+                        <div class="activity">
+                            <span>Gym - 5%</span>
+                            <div class="progress-bar">
+                                <div class="progress dark-red"></div>
+                            </div>
+                        </div>
+                        <div class="activity">
+                            <span>Practice Exercises - 50%</span>
+                            <div class="progress-bar">
+                                <div class="progress green"></div>
+                            </div>
+                        </div>
+                        <div class="activity">
+                            <span>Self Study - 5%</span>
+                            <div class="progress-bar">
+                                <div class="progress dark-red"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="content-dashboard-section-right">
+                    <!-- This is show the status of the list note -->
+                    <div id="taskCount"></div>  
+                    
+                    <section class="content-container" id="content-containe-dash">
+                        <div id="note-tasks"></div>
+                    </section>
+                    <a href="/public/diary-list.html">See more . . .</a>
+                </section>
+            </main>
+            
+        </section>
+
+    </main>
+
+    <script type="module" src="/src/js/components/header-title-compo.js"></script>
+    <script type="module" src="/src/js/components/sidebar-respon-compo.js"></script>
+    <script type="module" src="/src/js/components/sidebar-compo.js"></script>
+    <script type="module" src="/src/js/components/footer-compo.js"></script>
+    <script src="/src/js/main.js"></script>
+</body>
+<footer-component data-source="card-data"></footer-component>
+</html>

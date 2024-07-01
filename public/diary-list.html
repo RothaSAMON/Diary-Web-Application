@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diary Application</title>
+    <!-- <link rel="stylesheet" href="./css/sidebar.css"> -->
+    <link rel="stylesheet" href="/src/styles/styles.css">
+    <!-- <link rel="stylesheet" href="./css/footer.css"> -->
+</head>
+<body class="body-todo-list">
+    <!-- This header title component -->
+    <header-title-component data-source="card-data"></header-title-component>
+
+    <!-- This is sidebar component responsive-->
+    <sidebar-respon-component data-source="card-data"></sidebar-respon-component>
+    
+    <main>
+        <!-- This is sidebar component -->
+        <sidebar-component data-source="card-data"></sidebar-component>
+        <section class="main-content-overall">
+            <header class="container">
+                <div class="search-container">
+                    <form  class="search-input">
+                        <input class="search-input" type="text" placeholder="Search . . .">
+                    </form>
+                    <button class="search-button">
+                        <img src="/src/images/Group.png" alt="icon">
+                    </button>
+                </div>
+                <button class="create-button"><a href="create.html" >Create</a> <a href="create.html"><img src="/src/images/Vector.png" alt="icon"></a></button>
+            </header>
+            <section class="content-container">
+                <div id="note-tasks"></div>
+            </section>
+        </section>
+    
+    </main>
+    
+    <script type="module" src="/src/js/components/header-title-compo.js"></script>
+    <script type="module" src="/src/js/components/sidebar-respon-compo.js"></script>
+    <script type="module" src="/src/js/components/sidebar-compo.js"></script>
+    <script type="module" src="/src/js/components/footer-compo.js"></script>
+    <script src="/src/js/main.js"></script>
+</body>
+<footer-component data-source="card-data"></footer-component>
+</html>

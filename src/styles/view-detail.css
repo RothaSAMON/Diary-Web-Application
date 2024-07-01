@@ -1,0 +1,64 @@
+:root {
+    --main-bg-color: #f0f0f0;
+    --main-text-color: #000000;
+    --primary-color: #252D41;
+    --font-size: 18px;
+    --main-padding: 0px 16px;
+    --max-width: 1600px;
+    --input-border: 1px solid rgb(195, 195, 195);
+}
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.main-content-view {
+    margin: auto;
+    padding: 0;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+.view-detail-container {
+    width: 100%;
+}
+
+#entry {
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: var(--input-border);
+    margin: 20px 0px;
+}
+#entry h1 {
+    padding: var(--main-padding);
+    color: var(--primary-color);
+    max-width: 100%;
+}
+#entry p {
+    padding: var(--main-padding);
+    color: var(--primary-color);
+    max-width: 100%;
+}
+.main-header-title {
+    display: flex;
+    justify-content: start;
+    color: var(--main-text-color);
+    text-align: center;
+    text-decoration: none;
+    padding: var(--main-padding);
+}
+.main-header-title h1 {
+    font-weight: 600;
+}
+.main-header-title span {
+    color: var(--main-text-color);
+    font-weight: 700;
+}
+@media (max-width: 768px) {
+
+    .main-header-title {
+        justify-content: center;
+    }
+
+}

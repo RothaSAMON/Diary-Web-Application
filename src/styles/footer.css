@@ -1,0 +1,12 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: var(--main-padding);
+    color: var(--main-text-color);
+    gap: 4px;
+}
+footer p span {
+    font-weight: 600;
+}

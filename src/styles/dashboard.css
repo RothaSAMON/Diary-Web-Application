@@ -1,0 +1,307 @@
+:root {
+    --main-bg-color: #ffffff;
+    --main-text-color: #000000;
+    --primary-color: #252D41;
+    --font-size: 18px;
+    --main-padding: 0px 16px;
+    --max-width: 1600px;
+    --input-border: 1px solid rgb(195, 195, 195);
+    --main-margin: 16px;
+}
+.main-dash-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.right-section {
+    width: 100%;
+    /* height: 100vh; */
+    /* background-color: rgb(247, 250, 255); */
+}
+
+/* This is greeting section */
+.right-section .greeting-container {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: var(--main-padding);
+    margin: 16px 16px;
+    padding: 16px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.greeting-container .image-detail {
+    margin: 0;
+    padding: 0;
+}
+.greeting-container .greeting-profile .image-profile {
+    padding: 0;
+    margin: 0;
+    margin-top: 4px;
+}
+.greeting-container .greeting-profile .image-profile img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 100%;
+    background-color: #8b8b8b;
+}
+.greeting-profile {
+    display: flex;
+    align-items: center;
+    padding: var(--main-padding);
+    gap: 20px;
+    color: var(--primary-color);
+}
+.greeting-text h2{
+    padding: 0;
+    margin: 0;
+}
+.greeting-text p{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* this is a time import */
+.date-status-container {
+    background-color: var(--primary-color);
+    max-width: 100%;
+    height: 100px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: var(--main-padding);
+    border-radius: 6px;
+    margin-top: 16px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    text-align: center;
+}
+
+.time-container h2 {
+    background-clip: text;
+    letter-spacing: 2px;
+    margin: 0;
+    font-size: 30px;
+    color: var(--main-bg-color);
+}
+.time-container p {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    color: #ff5fef;
+    font-size: 15px;
+    color: var(--main-bg-color);
+}
+
+/* This is the dashboard content */
+.content-dashboard-section {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.content-dashboard-section-left {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.content-dashboard-section-right {
+    width: 30%;
+    background-color: var(--main-bg-color);
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    margin: var(--main-padding);
+    margin-top: 16px;
+}
+
+#note-tasks {
+    grid-template-columns: 1fr;
+}
+
+#taskCount {
+    color: var(--main-text-color);
+    padding-left: 16px;
+    align-items: center;
+    display: flex;
+    justify-content: start;
+}
+#taskCount span {
+    color: rgb(216, 0, 0);
+}
+
+.profile-info-section {
+    background-color: var(--main-bg-color);
+    margin: var(--main-padding);
+    padding: 16px 0px;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    color: var(--main-text-color);
+}
+.text-profile-info {
+    margin: var(--main-padding);
+    padding: var(--main-margin);
+    display: flex;
+    justify-content: space-between;
+    max-width: 70%;
+    align-items: center;
+}
+.text-profile-info p {
+    margin: 0;
+    padding: 0px 5px;
+    max-width: 200px;
+    text-align: start;
+}
+.text-profile-info h3 {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+
+
+/* This is the activity-graph-container section */
+.activity-graph-container {
+    background-color: var(--main-bg-color);
+    margin: var(--main-padding);
+    padding: 16px 0px;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    color: var(--main-text-color);
+}
+
+.activity-graph-container h2 {
+    margin-top: 0;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.activity {
+    margin: 38px 0;
+    color: var(--primary-color);
+    padding: var(--main-padding);
+}
+
+.progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 12px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.progress {
+    height: 100%;
+    border-radius: 5px;
+}
+
+.orange {
+    background-color: orange;
+    width: 30%;
+}
+
+.red {
+    background-color: red;
+    width: 10%;
+}
+.dark-red {
+    background-color: rgb(220, 0, 0);
+    width: 5%;
+}
+
+.green {
+    background-color: green;
+    width: 50%;
+}
+.content-dashboard-section-right a {
+    color: var(--primary-color);
+    font-weight: 500;
+    text-decoration: none;
+    margin: var(--main-padding);
+}
+
+.entry-buttons a {
+    padding: 0;
+    margin: 0;
+}
+
+
+@media (max-width: 1037px) {
+    .content-dashboard-section {
+        display: block;
+        justify-content: center;
+    }
+    .content-dashboard-section-left {
+        width: 100%;
+    }
+    .content-dashboard-section-right {
+        width: 100%;
+        margin: 32px 0px;
+    }
+    .activity-graph-container {
+        margin: 0;
+    }
+    .profile-info-section {
+        margin: 0;
+    }
+    .right-section .greeting-container {
+        margin: 16px 0px;
+    }
+    .date-status-container {
+        margin: 0;
+    }
+    
+}
+
+@media (max-width: 971px) {
+    .greeting-container .image-detail img {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .right-section .greeting-container {
+        margin: 0;
+        padding: 0;
+        }
+    .greeting-text h2{
+        font-size: 20px;
+    }
+    .greeting-text p{
+        font-size: 16px;
+    }
+    .date-status-container {
+        margin: 16px 0px;  
+    }
+    .text-profile-info h3 {
+        font-size: 18px;
+    }
+    .text-profile-info p {
+        font-size: 15px;
+    }
+    .main-header-title {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 476px) {
+    .greeting-text h2{
+        font-size: 18px;
+    }
+    .greeting-text p{
+        font-size: 13px;
+    }
+    .text-profile-info {
+        max-width: 100%;
+    }
+    .text-profile-info h3 {
+        font-size: 16px;
+    }
+    .text-profile-info p {
+        font-size: 14px;
+        max-width: 150px;
+    }
+}
