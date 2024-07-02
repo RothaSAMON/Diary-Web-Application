@@ -4,7 +4,7 @@ export const sidebarData = [
         classIcon: '',
         icon: "",
         class : "",
-        img: "../src/images/dashboard.png",
+        img: "/src/images/dashboard.png",
         title: "Dashboard",
         link: "/index.html"
     },
@@ -13,23 +13,23 @@ export const sidebarData = [
         classIcon: '',
         icon: "",
         class : "",
-        img: "../src/images/folder.png",
+        img: "/src/images/folder.png",
         title: "Create Todo List",
-        link: "../public/create.html"
+        link: "/Diary-Web-Application/public/create.html"
     },
     {
         classIcon: '',
         icon: "",
         class : "",
-        img: "../src/images/calendar.png",
+        img: "/src/images/calendar.png",
         title: "View and Edit",
-        link: "../public/diary-list.html"
+        link: "/Diary-Web-Application/public/diary-list.html"
     },
     {
         classIcon: 'class="toggle-icon"',
         icon: '&#9660;',
         class : "dropdown-header",
-        img: "../src/images/question.png",
+        img: "/src/images/question.png",
         title: "Help",
         link: "#"
     },
