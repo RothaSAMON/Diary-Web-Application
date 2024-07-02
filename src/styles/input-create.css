@@ -70,6 +70,7 @@
     margin: 0;
     text-decoration: none;
     color:   var(--main-bg-color);
+    padding-left: 8px;
 }
 
 .plus-icon {
