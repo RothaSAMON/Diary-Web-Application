@@ -1,6 +1,6 @@
-# Diary Web Application
+# Diary Web Application : SORSE | DIARY
 
-Here is the link to check **the details** of the **Diary Web Application** Website Project : https://www.notion.so/Third-Mission-Diary-Web-Application-b124c5f5f3f24a008b86a539840ab98f
+Here is the link to check **the details** of the **Diary Web Application : SORSE | DIARY** Website Project : https://www.notion.so/Third-Mission-Diary-Web-Application-b124c5f5f3f24a008b86a539840ab98f
 
 Checkout the **Website after deploy** :
 + 000webhost: https://diary-web-rotha.000webhostapp.com/ 
