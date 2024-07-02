@@ -10,3 +10,14 @@ footer {
 footer p span {
     font-weight: 600;
 }
+@media (max-width: 768px) {
+    footer {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 395px) {
+    footer {
+        font-size: 12px;
+    }
+}

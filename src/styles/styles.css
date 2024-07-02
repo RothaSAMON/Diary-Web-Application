@@ -112,6 +112,9 @@ input, textarea, button {
     .main-header-title {
         justify-content: center;
     }
+    footer {
+        display: none;
+    }
 
 }
 

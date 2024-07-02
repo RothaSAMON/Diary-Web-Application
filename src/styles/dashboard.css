@@ -285,6 +285,9 @@
     .main-header-title {
         justify-content: center;
     }
+    .time-container h2 {
+        font-size: 28px;
+    }
 }
 
 @media (max-width: 476px) {
@@ -303,5 +306,8 @@
     .text-profile-info p {
         font-size: 14px;
         max-width: 150px;
+    }
+    .time-container h2 {
+        font-size: 24px;
     }
 }
