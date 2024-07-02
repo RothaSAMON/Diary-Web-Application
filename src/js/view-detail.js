@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function loadEntry(entryId) {
-    const entries = JSON.parse(localStorage.getItem("entries")) || [];
+    const entries = JSON.parse(localStorage.getItem("note-tasks")) || [];
     const entry = entries[entryId];
     
     if (entry) {

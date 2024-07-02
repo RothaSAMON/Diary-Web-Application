@@ -80,6 +80,9 @@
     gap: 20px;
 
 }
+.list-menu-sidebar-respon::-webkit-scrollbar {
+    display: none;
+}
 .list-submenu-sidebar-respon a{
     text-decoration: none;
     color:  var(--main-text-color);

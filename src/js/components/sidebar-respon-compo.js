@@ -12,7 +12,7 @@ import { sideResData } from '../data/sidebar-respon-data.js';
                     ${sideRes.map((item) => `
                     <li class="list-submenu-sidebar-respon">
                         <img src="${item.img}" alt="icon">
-                        <a href="${item.link}">${item.title}</a>
+                        <a href="${item.link}" target="_blank">${item.title}</a>
                     </li>
                     `).join('')}
                 </ul>
