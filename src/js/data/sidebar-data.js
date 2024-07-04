@@ -15,7 +15,7 @@ export const sidebarData = [
         class : "",
         img: "/Diary-Web-Application/src/images/folder.png",
         title: "Create Todo List",
-        link: "/public/create.html"
+        link: "/Diary-Web-Application/public/create.html"
     },
     {
         classIcon: '',
@@ -23,7 +23,7 @@ export const sidebarData = [
         class : "",
         img: "/Diary-Web-Application/src/images/calendar.png",
         title: "View and Edit",
-        link: "/public/diary-list.html"
+        link: "/Diary-Web-Application/public/diary-list.html"
     },
     {
         classIcon: 'class="toggle-icon"',

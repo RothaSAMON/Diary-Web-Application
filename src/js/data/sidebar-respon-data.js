@@ -9,12 +9,12 @@ export const sideResData = [
     {
         img: "/Diary-Web-Application/src/images/folder.png",
         title: "Create Todo List",
-        link: "/public/create.html"
+        link: "/Diary-Web-Application/public/create.html"
     },
     {
         img: "/Diary-Web-Application/src/images/calendar.png",
         title: "View and Edit",
-        link: "/public/diary-list.html"
+        link: "/Diary-Web-Application/public/diary-list.html"
     },
     {
         img: "/Diary-Web-Application/src/images/question.png",
