@@ -4,7 +4,7 @@ Here is the link to check **the details** of the **Diary Web Application : SORSE
 
 Checkout the **Website after deploy** :
 + 000webhost: https://diary-web-rotha.000webhostapp.com/ 
-+ Github: None
++ Github: https://rothasamon.github.io/Diary-Web-Application/
 
 ## Project Setup & Installation
 This project involves creating a Diary web application using HTML, CSS, and JavaScript. The project is structured to separate content, styling, and functionality specially the CRUD concept of the JavaScript.
