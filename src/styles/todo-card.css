@@ -1,11 +1,10 @@
-
+/* This for the all Diary note tasks */
 #note-tasks {
     margin-top: 1rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
 }
-
 .entry {
     border: 1px solid #f2f2f2; /* Darker border for note-tasks */
     border-radius: 10px;
@@ -16,19 +15,17 @@
 .entry:hover {
     box-shadow: 5px 5px 10px rgba(182, 182, 182, 0.5);
 }
-
 .entry h3 a {
     text-decoration: none;
     color: var(--main-text-color);
     font-weight: 700;
     margin: 0;
 }
-
 .entry h3, .entry p, .entry small {
-    color:  var(--main-text-color); /* Light text color for note-tasks */
+    color:  var(--main-text-color);
 }
 
-/* this make the text to 3 line and another hidden */
+/* This make the text to 3 line and another hidden */
 .entry-details p {
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -38,29 +35,34 @@
 }
 .entry-buttons {
     display: flex;
-    gap: 10px;
+    gap: 20px;
     justify-content: center;
     align-items: end;
     padding: 0;
     margin: 0;
 }
-.entry-buttons img{
+.entry-buttons img {
     width: 20px;
     padding: 0;
     margin: 0;
+    transition: transform 0.3s ease;
 }
+
+.entry-buttons img:hover {
+    transform: scale(1.2);
+}
+
 .entry-buttons a{
     padding: 5px;
     margin: 0;
     padding: 0;
 }
 
-
 /* Responsive Design */
 @media (max-width: 1024px) {
     #note-tasks {
         grid-template-columns: repeat(2, 1fr);
-}
+    }
 }
 @media (max-width: 768px) {
     #note-tasks {
