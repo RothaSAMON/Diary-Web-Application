@@ -73,9 +73,9 @@ function loadNoteTasks(limit) {
                 <p>${note.date}</p>
                 <p>${note.content}</p>
                 <div class="entry-buttons">
-                    <a href="/public/view-detail.html?id=${index}"><img src="/src/images/view.png" alt="icon"></a>
-                    <a href="/public/edit-diary.html?id=${index}"><img src="/src/images/edit.png" alt="icon"></a>
-                    <a href="#" onclick="deleteEntry(${index})"><img src="/src/images/bin.png" alt="icon"></a>
+                    <a href="/Diary-Web-Application/public/view-detail.html?id=${index}"><img src="/Diary-Web-Application/src/images/view.png" alt="icon"></a>
+                    <a href="/Diary-Web-Application/public/edit-diary.html?id=${index}"><img src="/Diary-Web-Application/src/images/edit.png" alt="icon"></a>
+                    <a href="#" onclick="deleteEntry(${index})"><img src="/Diary-Web-Application/src/images/bin.png" alt="icon"></a>
                 </div>
             </div>
         `;
@@ -112,7 +112,7 @@ function addTaskNote(event) {
     noteTask.push(newNote);
     localStorage.setItem("note-tasks", JSON.stringify(noteTask));
 
-    window.location.href = "/public/diary-list.html";
+    window.location.href = "/Diary-Web-Application/public/diary-list.html";
     updateTaskCount(); // Update task count after adding entry
 }
 
@@ -138,7 +138,7 @@ function noteTaskUpdate(event, noteTaskId) {
     noteTasks[noteTaskId] = { ...noteTasks[noteTaskId], title, content, date };
     localStorage.setItem("note-tasks", JSON.stringify(noteTasks));
 
-    window.location.href = "/public/diary-list.html";
+    window.location.href = "/Diary-Web-Application/public/diary-list.html";
     updateTaskCount(); // Update task count after updating entry
 }
 
