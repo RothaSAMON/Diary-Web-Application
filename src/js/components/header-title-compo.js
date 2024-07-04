@@ -7,7 +7,7 @@ import { headerData } from '../data/header-title-data.js';
 
         const CreateHeader = (header) => {
             return `
-            <a href="/index.html" class="main-header-title">
+            <a href="/Diary-Web-Application/index.html" class="main-header-title">
                     ${header.map((item) => `
                     <h1>${item.defualt} <span>${item.orangetext}</span></h1>
                     `).join('')}
