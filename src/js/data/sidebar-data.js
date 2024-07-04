@@ -6,7 +6,7 @@ export const sidebarData = [
         class : "",
         img: "/Diary-Web-Application/src/images/dashboard.png",
         title: "Dashboard",
-        link: "/index.html"
+        link: "/Diary-Web-Application/index.html"
     },
 
     {

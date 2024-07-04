@@ -3,7 +3,7 @@ export const sideResData = [
     {
         img: "/Diary-Web-Application/src/images/dashboard.png",
         title: "Dashboard",
-        link: "/index.html"
+        link: "/Diary-Web-Application/index.html"
     },
 
     {
